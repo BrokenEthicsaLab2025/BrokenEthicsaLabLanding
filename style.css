@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #0d0d0d;
+  color: #00ffcc;
+  overflow-x: hidden;
+}
+
+/* Sticky Nav */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #111;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  z-index: 1000;
+  box-shadow: 0 0 10px #00ffcc;
+}
+
+.navbar a {
+  color: #00ffcc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #00e6b8;
+}
+
+/* Banner Header */
+.banner-header {
+  position: relative;
+  text-align: center;
+  height: 400px;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.banner-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.25;
+  z-index: 1;
+}
+
+.logo-container {
+  position: relative;
+  z-index: 2;
+  padding-top: 60px;
+}
+
+.logo {
+  width: 140px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ffcc;
+}
+
+.glitch {
+  font-size: 2.5rem;
+  color: #00ffcc;
+  text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc;
+  animation: glitch 1s infinite;
+}
+
+@keyframes glitch {
+  0% { text-shadow: 0 0 5px #00ffcc; }
+  50% { text-shadow: 0 0 10px #00ffcc, 2px 2px #00e6b8; }
+  100% { text-shadow: 0 0 5px #00ffcc; }
+}
+
+.tagline {
+  font-style: italic;
+  color: #cccccc;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  border-bottom: 1px dashed #333333;
+}
+
+h2 {
+  color: #00ffcc;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 5px #00ffcc;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 0.5rem 0;
+  padding-left: 1rem;
+  position: relative;
+  color: #ffffff;
+}
+
+ul li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: #00ffcc;
+}
+
+.buttons {
+  margin-top: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #00ffcc;
+  color: #0d0d0d;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 0 0 10px #00ffcc;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #00e6b8;
+  box-shadow: 0 0 15px #00e6b8;
+}
+
+.market-img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00ffcc;
+}
+
+.contact {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #cccccc;
+}
+
+.terminal-box {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.terminal {
+  background-color: #111;
+[43dcd9a7-70db-4a1f-b0ae-981daa162054](https://github.com/Ronnie434/30-days-of-React/tree/22142106cb46f717a1259f84227cc90ed7fe50cc/02_Day_Introduction_to_React%2F02_introduction_to_react.md?citationMarker=43dcd9a7-70db-4a1f-b0ae-981daa162054&citationId=1 "github.com")
